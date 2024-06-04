@@ -17,9 +17,9 @@ body {
 }
 
 img {
-    padding: var(--spacing);
-    background: var(--base);
+    border: var(--spacing) solid var(--base);
     filter: blur(var(--blur));
+    max-width: 100%;
     width: 45vw;
     height: 45vh;
 }
